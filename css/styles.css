@@ -1,0 +1,30 @@
+body{
+    display: flex;
+}
+
+#bg-img{
+    width: 500px;
+}
+
+#logo-img{
+    width: 100px;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: black;
+    opacity: 0.3;
+    font-size: 50px;
+}
