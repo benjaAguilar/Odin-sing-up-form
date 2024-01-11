@@ -58,15 +58,10 @@ body{
 }
 
 .form-content{
-    flex: 2 1 auto;
+    flex: 2 0 auto;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-}
-
-form div{
+#form-style{
     display: flex;
     flex-wrap: wrap;
     height: 50%;
@@ -74,4 +69,26 @@ form div{
     background-color: white;
     padding: 2em;
     box-shadow: 0px 0px 5px black;
+}
+
+.groups{
+    flex: 0 0 50%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: silver;
+}
+
+
+#form-style p {
+    flex: auto;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
 }
