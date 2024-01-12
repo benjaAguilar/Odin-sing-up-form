@@ -42,8 +42,6 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 20px;
     background-color: rgb(41, 171, 135);
 }
@@ -52,9 +50,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-end;
     flex: 1 1 auto;
     width: 70%;
+    margin-left: 32px;
+    margin-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-weight: bold;
@@ -78,7 +78,7 @@ body{
 .groups{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     flex: 0 0 50%;
     margin-bottom: 30px;
     box-sizing: border-box;
@@ -93,16 +93,22 @@ label{
     margin-bottom: 5px;
 }
 
-
 #form-style p {
     flex: auto;
-    text-align: center;
     width: 100%;
     font-size: 25px;
     font-weight: bold;
     font-family: viking;
     color: rgb(41, 171, 135);
     display: block;
+}
+
+.form-title{
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
 }
 
 input{
@@ -115,13 +121,15 @@ input{
 
 .sbmt{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #s-button{
     margin-top: 30px;
     padding: 10px;
+    margin-left: 32px;
     height: fit-content;
     width: 200px;
     background-color: rgb(41, 171, 135);
@@ -136,4 +144,17 @@ input{
     color: rgb(41, 171, 135);
     border: 2px solid white;
     cursor: pointer;
+}
+
+.login{
+    margin-left: 32px;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login a{
+    text-decoration: none;
+    font-weight: bold;
 }
