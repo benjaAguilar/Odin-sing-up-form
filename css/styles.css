@@ -49,13 +49,18 @@ body{
 }
 
 .para{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     flex: 1 1 auto;
     width: 70%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
+
 
 .form-content{
     flex: 2 0 auto;
