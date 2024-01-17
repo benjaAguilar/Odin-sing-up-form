@@ -158,3 +158,13 @@ input{
     text-decoration: none;
     font-weight: bold;
 }
+
+input:valid{
+    border: 2px solid rgb(41, 171, 135);
+    box-shadow: inset 0px 0px 5px rgb(41, 171, 135);
+}
+
+input:user-invalid{
+    border: 2px solid red;
+    box-shadow: inset 0px 0px 5px red;
+}
