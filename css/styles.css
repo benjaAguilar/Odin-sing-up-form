@@ -168,3 +168,14 @@ input:user-invalid{
     border: 2px solid red;
     box-shadow: inset 0px 0px 5px red;
 }
+
+#match{
+    margin-top: 5px;
+    color: red;
+    font-size: 10px;
+}
+
+.not-match{
+    border: 2px solid red;
+    box-shadow: inset 0px 0px 5px red;
+}
