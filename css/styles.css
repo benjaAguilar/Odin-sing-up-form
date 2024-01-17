@@ -43,6 +43,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: 749.725px;
     background-color: rgb(41, 171, 135);
 }
 
@@ -148,7 +149,7 @@ input{
 
 .login{
     margin-left: 32px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1rem;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
